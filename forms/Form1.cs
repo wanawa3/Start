@@ -27,5 +27,17 @@ namespace Start
             var form = new CoachesForm();
             form.ShowDialog();
         }
+
+        private void btnAttendance_Click(object sender, EventArgs e)
+        {
+            var form = new AttendanceForm();
+            form.ShowDialog();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            var form = new ReportsForm();
+            form.ShowDialog();
+        }
     }
 }
